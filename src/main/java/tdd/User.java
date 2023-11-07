@@ -1,4 +1,4 @@
-package seminars.third.tdd;
+package tdd;
 
 public class User {
 
@@ -15,7 +15,7 @@ public class User {
 
     //3.6.
     public boolean authenticate(String name, String password) {
-        return false;
+        isAuthenticate = (name.equals(this.name)) && (password.equals(this.password));
+        return isAuthenticate;
     }
-
 }

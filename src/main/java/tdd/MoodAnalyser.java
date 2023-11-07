@@ -1,4 +1,4 @@
-package seminars.third.tdd;
+package tdd;
 
 public class MoodAnalyser {
 
